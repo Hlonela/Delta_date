@@ -16,14 +16,20 @@ print("Initial date:", str(init_time_for_now))
 #Using a for loop
 
 
+dt = datetime (2021, 5, 18)
+year = dt.year
+print(year)
+
+age = year - 1997
+print("I am"+" "+ str(age) +" "+ "years old")
 
 
+#x = 0
 
-x = 0
 
+#while x < 10:
+    #x = x+1
+   # init_time_for_now = init_time_for_now + timedelta (days=7)
+    #print(init_time_for_now)
 
-while x < 10:
-    x = x+1
-    init_time_for_now = init_time_for_now + timedelta (days=7)
-    print(init_time_for_now)
 
